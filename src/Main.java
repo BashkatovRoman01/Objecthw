@@ -5,11 +5,15 @@ public class Main {
       book.Name=Name;
       book.YearPublishing = YearPublishing;
       book.bookName=bookName;
-      return book;
-
+      return book; }
+    public static Author createAuthor (String authorFirstName, String authorSecondtName) {
+      Author author= new Author();
+      Author.authorFirstName=authorFirstName;
+      Author.authorSecondtName = authorSecondtName;
+      return author;
     }
     public static void main(String[] args) {
-      Author Pushkin = new Author();
+      Author Pushkin = createAuthor ("Alexander","Pushkin");
       Pushkin.authorFirstName="Alexander";
       Pushkin.authorSecondtName="Pushkin";
         System.out.println("Pushkin.authorFirstName = " + Pushkin.authorFirstName);

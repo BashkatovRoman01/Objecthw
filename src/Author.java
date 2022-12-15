@@ -1,7 +1,7 @@
 public class Author {
-    String authorFirstName;
+    static String authorFirstName;
 
-    String authorSecondtName;
+    static String authorSecondtName;
 
     public Author() {
         this.authorFirstName = authorFirstName;
