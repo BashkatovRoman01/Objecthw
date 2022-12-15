@@ -3,7 +3,7 @@ public class Main {
 
   public static Book createBook (String Name, int YearPublishing, String bookName) {
       Book book= new Book();
-      book.Name=name;
+      book.Name=Name;
       book.YearPublishing = YearPublishing;
       book.bookName=bookName;
       return book;
