@@ -9,6 +9,8 @@ public class Main {
         
         System.out.println("Onegin.Name = " + Onegin.getName());
         System.out.println("Onegin.YearPublishing = " + Onegin.getYearPublishing());
+        Onegin.setYearPublishing(1912);
+        System.out.println("Onegin.getYearPublishing() = " + Onegin.getYearPublishing());
         System.out.println("Onegin.bookName = " + Onegin.getBookName());
     }
 }
