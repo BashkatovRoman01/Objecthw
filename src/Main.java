@@ -13,7 +13,7 @@ public class Main {
       return author;
     }
     public static void main(String[] args) {
-      Author Pushkin = createAuthor ("Alexander","Pushkin");
+      Author Pushkin = new  Author ("Alexander","Pushkin");
 
         System.out.println("Pushkin.authorFirstName = " + Pushkin.authorFirstName);
         System.out.println("Pushkin.authorSecondtName = " + Pushkin.authorSecondtName);
