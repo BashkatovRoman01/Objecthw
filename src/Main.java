@@ -1,5 +1,4 @@
 public class Main {
-  private static String name;
 
   public static Book createBook (String Name, int YearPublishing, String bookName) {
       Book book= new Book();
