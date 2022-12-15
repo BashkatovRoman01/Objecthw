@@ -14,8 +14,7 @@ public class Main {
     }
     public static void main(String[] args) {
       Author Pushkin = createAuthor ("Alexander","Pushkin");
-      Pushkin.authorFirstName="Alexander";
-      Pushkin.authorSecondtName="Pushkin";
+
         System.out.println("Pushkin.authorFirstName = " + Pushkin.authorFirstName);
         System.out.println("Pushkin.authorSecondtName = " + Pushkin.authorSecondtName);
         Book Onegin = createBook("Evgeniy", 1861, "Evgeniy Onegin" );
