@@ -1,6 +1,7 @@
 public class Book {
+
     String Name;
-    String YearPublishing;
+    int YearPublishing;
     String bookName;
 
     public Book() {
